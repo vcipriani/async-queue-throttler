@@ -1,0 +1,14 @@
+{
+  "name": "async-queue-throttler",
+  "version": "1.0.0",
+  "description": "A simple queue manager to help stay under API limits",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vince Cipriani",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
