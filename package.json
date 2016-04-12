@@ -4,11 +4,15 @@
   "description": "A simple queue manager to help stay under API limits",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "Vince Cipriani",
   "license": "ISC",
   "devDependencies": {
+    "chai": "^3.5.0",
     "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "date-diff": "^0.1.3"
   }
 }
